@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GranuleMetaDataFile>
+    <DSName>GLASS01B01</DSName>
+    <DSVersion>V4.0</DSVersion>
+    <DSContent>Leaf Area Index</DSContent>
+    <Language>English</Language>
+    <DataState>completion</DataState>
+    <QualityDescription>a correct product with no cloud</QualityDescription>
+    <DSRestrict>
+        <UseRestrict>patent</UseRestrict>
+        <SecurityLevel>public</SecurityLevel>
+    </DSRestrict>
+    <DataForm>
+        <FormName>HDF</FormName>
+        <FormVersion>HDF-EOS</FormVersion>
+    </DataForm>
+    <GranuleURMetaData>
+        <RangeDateTime>
+            <RangeEndingTime>23:59:59</RangeEndingTime>
+            <RangeEndingDate>1982-08-04</RangeEndingDate>
+            <RangeBeginningTime>00:00:00</RangeBeginningTime>
+            <RangeBeginningDate>1982-07-28</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <ZoneIdentifierClass>
+                    <ZoneIdentifier>Geographic Lat/Lon</ZoneIdentifier>
+                </ZoneIdentifierClass>
+                <GPolygon>
+                    <Boundary>
+                        <DL>
+                            <PointLongitude>-180.00</PointLongitude>
+                            <PointLatitude>-90.00</PointLatitude>
+                        </DL>
+                        <UL>
+                            <PointLongitude>-180.00</PointLongitude>
+                            <PointLatitude>90.00</PointLatitude>
+                        </UL>
+                        <UR>
+                            <PointLongitude>180.00</PointLongitude>
+                            <PointLatitude>90.00</PointLatitude>
+                        </UR>
+                        <DR>
+                            <PointLongitude>180.00</PointLongitude>
+                            <PointLatitude>-90.00</PointLatitude>
+                        </DR>
+                    </Boundary>
+                    <Center>
+                            <PointLongitude>0.00</PointLongitude>
+                            <PointLatitude>0.00</PointLatitude>
+                    </Center>
+                    <TileCode>
+                        <HorizontalCode>h00</HorizontalCode>
+                        <VerticalCode>v00</VerticalCode>
+                    </TileCode>
+                </GPolygon>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <InputGranule>
+            <InputPointer>Multi-Source Data</InputPointer>
+        </InputGranule>
+        <OutputParameterType>LAI</OutputParameterType>
+        <ProductTime>2019-12-19 18:41:22</ProductTime>
+        <CollectionMetaData>
+            <ShortName>LAI</ShortName>  
+            <VersionID>alpha</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>GLASS01B02.V40.A1982209.2019353.hdf</DistributedFileName>
+                <FileSize>7411938</FileSize>
+                <ChecksumType>CKSUM</ChecksumType>
+                <Checksum>2419636287</Checksum>
+                <ChecksumOrigin>DataProvider</ChecksumOrigin>
+                <ReprocessingPlanned>further update is anticipated</ReprocessingPlanned>
+                <ReprocessingActual>reprocessed</ReprocessingActual>
+                <DayNightFlag>Day</DayNightFlag>
+            </DataFileContainer>
+        </DataFiles>
+        <AlgorithmInformation>
+            <AlgorithmName>SLiang-2003</AlgorithmName>
+            <AlgorithmVersion>V4.0</AlgorithmVersion>
+        </AlgorithmInformation>
+        <ModelInformation>
+            <ModelName>01B02.V40</ModelName>
+            <ModelCode>V40</ModelCode>
+        </ModelInformation>
+        <Platform>
+            <PlatformShortName>NOAA</PlatformShortName>
+            <Instrument>
+                <Sensor>
+                    <SensorShortName>AVHRR</SensorShortName>
+                </Sensor>
+            </Instrument>
+        </Platform>
+        <PublishInstitution>
+            <InstitutionName>Beijing Normal University</InstitutionName>
+            <Telephone>010-58809071</Telephone>
+            <Fax>010-58809071</Fax>
+            <Email>datacenter@bnu.edu.cn</Email>
+            <Address>19 Xinjiekou Wai Street,Beijing 100875,P.R.CHINA</Address>
+            <WebSite>http://glass-product.bnu.edu.cn</WebSite>
+        </PublishInstitution>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
